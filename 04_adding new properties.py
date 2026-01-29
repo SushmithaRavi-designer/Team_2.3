@@ -16,7 +16,7 @@ from specklepy.objects.base import Base
 
 # TODO: Replace with your project, model, and version IDs
 PROJECT_ID = "128262a20c"
-MODEL_ID = "6f48c3353d"
+MODEL_ID = "9da8725bf2"
 
 # Define module numbers and designers for each Z-height range
 # Based on Z-height: Bottom elements, Middle elements (blue), Top elements

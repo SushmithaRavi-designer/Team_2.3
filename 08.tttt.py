@@ -16,9 +16,9 @@ from specklepy.api import operations
 from specklepy.objects import Base
 
 
-# TODO: Replace with your project and model IDs
+# TODO: Replace with your project and model IDs print the destination root properties for verification?
 PROJECT_ID = "128262a20c"
-MODEL_ID = "6f48c3353d"
+MODEL_ID = "9da8725bf2"
 
 # TODO: Replace with the applicationId of an object to duplicate
 TARGET_APPLICATION_ID = "17cc627f-f5df-44d2-908e-1cdaf96fe76c"
