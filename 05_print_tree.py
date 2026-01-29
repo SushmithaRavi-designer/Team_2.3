@@ -4,7 +4,7 @@ from specklepy.api import operations
 from specklepy.objects import Base
 
 PROJECT_ID = "128262a20c"
-MODEL_ID = "a7296f66a3"
+MODEL_ID = "0763ad7d28"
 
 
 def walk_tree_print(root: Base, depth: int = 0):
