@@ -1,129 +1,124 @@
 {
   "project_id": "128262a20c",
-  "model_id": "6f48c3353d",
-  "version_id": "83f054f3e4",
+  "model_id": "0763ad7d28",
+  "version_id": "8de6294de7",
   "version_message": "Added Module and Designer properties to individual elements based on Z-position",
   "graphql_info": {
     "project": {
       "id": "128262a20c",
       "name": "CW26-Sessions",
       "version": {
-        "id": "83f054f3e4",
+        "id": "8de6294de7",
         "message": "Added Module and Designer properties to individual elements based on Z-position",
-        "createdAt": "2026-01-29T07:51:46.936Z",
-        "referencedObject": "df2a2e5ad144cf5e65fa19f1a9a825c8"
+        "createdAt": "2026-01-29T10:51:27.911Z",
+        "referencedObject": "dd74a297e9b904dadd76b3abe9d49a4c"
       }
     }
   },
   "objects": [
     {
-      "id": "df2a2e5ad144cf5e65fa19f1a9a825c8",
-      "speckle_type": "Speckle.Core.Models.Collections.Collection:Speckle.Core.Models.Collections.RootCollection",
-      "applicationId": "401ff18d-da08-4bc8-ab8f-dc23e04dec02",
-      "name": "Grasshopper Model",
+      "id": "dd74a297e9b904dadd76b3abe9d49a4c",
+      "speckle_type": "Speckle.Core.Models.Collections.Collection",
+      "applicationId": null,
+      "name": "python model",
       "depth": 0,
       "properties": {
-        "analysis_date": "2026-01-29",
-        "name": "Grasshopper Model",
-        "properties": {},
-        "speckle_type": "Speckle.Core.Models.Collections.Collection:Speckle.Core.Models.Collections.RootCollection",
-        "custom_property": "Hello from specklepy!",
-        "id": "df2a2e5ad144cf5e65fa19f1a9a825c8",
-        "processed_by": "Team_02.3",
         "version": 3,
-        "totalChildrenCount": 0,
-        "applicationId": "401ff18d-da08-4bc8-ab8f-dc23e04dec02"
+        "analysis_date": "2026-01-29",
+        "units": "mm",
+        "custom_property": "Hello from specklepy!",
+        "processed_by": "Team_02.3",
+        "name": "python model",
+        "id": "dd74a297e9b904dadd76b3abe9d49a4c",
+        "speckle_type": "Speckle.Core.Models.Collections.Collection",
+        "totalChildrenCount": 0
       }
     },
     {
-      "id": "814f96d2034764e11de813ccc7e57b8e",
-      "speckle_type": "Speckle.Core.Models.Collections.Collection",
-      "applicationId": "697c68dd-adef-419a-86f3-34e6cf4f7c11",
+      "id": "54ec91e3bbb5f159fdccf1d7e9d8cd2f",
+      "speckle_type": "Speckle.Core.Models.Collection",
+      "applicationId": "7173a954-412b-4606-b14c-c2bdb579af98",
       "name": "old",
       "depth": 1,
       "properties": {
+        "applicationId": "7173a954-412b-4606-b14c-c2bdb579af98",
+        "id": "54ec91e3bbb5f159fdccf1d7e9d8cd2f",
         "name": "old",
-        "topology": "0;0-2 ",
-        "speckle_type": "Speckle.Core.Models.Collections.Collection",
-        "id": "814f96d2034764e11de813ccc7e57b8e",
-        "totalChildrenCount": 0,
-        "applicationId": "697c68dd-adef-419a-86f3-34e6cf4f7c11"
+        "speckle_type": "Speckle.Core.Models.Collection",
+        "totalChildrenCount": 0
       }
     },
     {
-      "id": "e1d90ad5aa5bdabd14104dc1c67c7019",
+      "id": "c3b5a7cba47045fdd128b0b9c4e177fe",
       "speckle_type": "Objects.Geometry.BrepX",
       "applicationId": "17cc627f-f5df-44d2-908e-1cdaf96fe76c",
-      "name": "",
+      "name": null,
       "depth": 2,
       "properties": {
+        "applicationId": "17cc627f-f5df-44d2-908e-1cdaf96fe76c",
         "area": 1319867231.5959716,
-        "name": "",
+        "volume": 3428318529658.1543,
+        "units": "mm",
+        "id": "c3b5a7cba47045fdd128b0b9c4e177fe",
+        "speckle_type": "Objects.Geometry.BrepX",
+        "totalChildrenCount": 0,
         "properties": {
           "Module": "01",
           "Designer": "Nihan"
-        },
-        "speckle_type": "Objects.Geometry.BrepX",
-        "volume": 3428318529658.1543,
-        "id": "e1d90ad5aa5bdabd14104dc1c67c7019",
-        "units": "mm",
-        "totalChildrenCount": 0,
-        "applicationId": "17cc627f-f5df-44d2-908e-1cdaf96fe76c"
+        }
       }
     },
     {
-      "id": "8e6f563bd8403a06940a8f87271d7218",
+      "id": "0b6e10588f6df5921658cac6c5d3e0e9",
       "speckle_type": "Objects.Geometry.BrepX",
       "applicationId": "50cae94b-00de-47e9-8e2d-15a748240fc0",
-      "name": "",
+      "name": null,
       "depth": 2,
       "properties": {
+        "applicationId": "50cae94b-00de-47e9-8e2d-15a748240fc0",
         "area": 1319867231.5959716,
-        "name": "",
+        "volume": 3428318529658.1523,
+        "units": "mm",
+        "id": "0b6e10588f6df5921658cac6c5d3e0e9",
+        "speckle_type": "Objects.Geometry.BrepX",
+        "totalChildrenCount": 0,
         "properties": {
           "Module": "03",
           "Designer": "Marina"
-        },
-        "speckle_type": "Objects.Geometry.BrepX",
-        "volume": 3428318529658.1523,
-        "id": "8e6f563bd8403a06940a8f87271d7218",
-        "units": "mm",
-        "totalChildrenCount": 0,
-        "applicationId": "50cae94b-00de-47e9-8e2d-15a748240fc0"
+        }
       }
     },
     {
-      "id": "e085fcce4464b896934e680d5bd44fae",
+      "id": "74252058165a740d3a8a05eb66fa54e3",
       "speckle_type": "Speckle.Core.Models.Collection",
       "applicationId": null,
       "name": "new",
       "depth": 1,
       "properties": {
+        "id": "74252058165a740d3a8a05eb66fa54e3",
         "name": "new",
         "speckle_type": "Speckle.Core.Models.Collection",
-        "id": "e085fcce4464b896934e680d5bd44fae",
         "totalChildrenCount": 0
       }
     },
     {
-      "id": "88f1e12bece8ffe9a15857e7173ff62e",
+      "id": "b92ebd96bc71330b10534ea4b416533c",
       "speckle_type": "Objects.Geometry.BrepX",
-      "applicationId": "751c2f6c-b208-4e8e-9b2c-bcc86443cb0f",
-      "name": "",
+      "applicationId": "c4188e81-8064-47a3-ada6-21b2182fe472",
+      "name": null,
       "depth": 2,
       "properties": {
+        "applicationId": "c4188e81-8064-47a3-ada6-21b2182fe472",
         "area": 1319867231.5959716,
-        "name": "",
+        "volume": 3428318529658.1543,
+        "units": "mm",
+        "id": "b92ebd96bc71330b10534ea4b416533c",
+        "speckle_type": "Objects.Geometry.BrepX",
+        "totalChildrenCount": 0,
         "properties": {
           "Module": "02",
           "Designer": "Sushmitha"
-        },
-        "speckle_type": "Objects.Geometry.BrepX",
-        "volume": 3428318529658.1543,
-        "id": "88f1e12bece8ffe9a15857e7173ff62e",
-        "units": "mm",
-        "totalChildrenCount": 0,
-        "applicationId": "751c2f6c-b208-4e8e-9b2c-bcc86443cb0f"
+        }
       }
     }
   ]
