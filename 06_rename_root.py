@@ -6,7 +6,7 @@ from specklepy.core.api.inputs.version_inputs import CreateVersionInput
 
 PROJECT_ID = "128262a20c"
 MODEL_ID = "0763ad7d28"
-NEW_ROOT_NAME = "python script"
+NEW_ROOT_NAME = "Specklepy"
 
 client = get_client()
 versions = client.version.get_versions(MODEL_ID, PROJECT_ID, limit=10)
