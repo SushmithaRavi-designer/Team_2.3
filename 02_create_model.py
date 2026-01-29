@@ -26,7 +26,7 @@ def main():
     print(f"✓ Found project: {project.name}")
     
     # Create a model using the GraphQL mutation directly
-    model_name = "homework/session03/team_02.3.2"
+    model_name = "homework/session03/team_02.3"
     
     # Use the low-level GraphQL API
     query = gql("mutation CreateModel($input: CreateModelInput!) { modelMutations { create(input: $input) { id name } } }")
