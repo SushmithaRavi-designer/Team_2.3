@@ -13,7 +13,7 @@ import copy
 from main import get_client
 from specklepy.transports.server import ServerTransport
 from specklepy.api import operations
-from specklepy.objects.base import Base
+from specklepy.objects import Base
 
 
 # TODO: Replace with your project and model IDs
@@ -288,19 +288,15 @@ def main():
     
     # Create a new collection for the duplicated object
     new_collection = Base()
-    new_collection.name = "new"
+    # Explicitly tag as Collection so the viewer shows "Collection" instead of "Base"
     new_collection.speckle_type = "Speckle.Core.Models.Collection"
-    new_collection.collectionType = "Collection"
-    
-    # Use object name or generate a key
-    original_name = getattr(target_obj, 'name', None)
-    property_key = original_name if original_name and str(original_name).strip() else "DuplicatedObject"
-    
-    # Add the copied object to the collection
-    new_collection[property_key] = copied_obj
+    new_collection._speckle_type = "Speckle.Core.Models.Collection"
+    new_collection["speckle_type"] = "Speckle.Core.Models.Collection"
+    new_collection.name = "new"
+    new_collection.elements = [copied_obj]
     
     print(f"✓ Created collection: '{new_collection.name}'")
-    print(f"✓ Added object as '{property_key}'")
+    print("✓ Added duplicated object to collection")
     
     # Get the elements list from the root
     elements = getattr(data, "@elements", None)
