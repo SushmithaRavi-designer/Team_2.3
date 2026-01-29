@@ -6,7 +6,7 @@ from specklepy.core.api.inputs.version_inputs import CreateVersionInput
 
 PROJECT_ID       = "128262a20c"
 SOURCE_MODEL_ID  = "a1014e4b32"
-DEST_MODEL_ID    = "a7296f66a3"
+DEST_MODEL_ID    = "0763ad7d28"
 
 def copy_model_data():
     client = get_client()
