@@ -18,7 +18,7 @@ from specklepy.objects import Base
 
 # TODO: Replace with your project and model IDs
 PROJECT_ID = "128262a20c"
-MODEL_ID = "a7296f66a3"
+MODEL_ID = "0763ad7d28"
 
 # TODO: Replace with the applicationId of an object to duplicate
 TARGET_APPLICATION_ID = "17cc627f-f5df-44d2-908e-1cdaf96fe76c"
