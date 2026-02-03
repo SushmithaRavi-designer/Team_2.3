@@ -100,7 +100,7 @@ if __name__ == '__main__':
         raise SystemExit(1)
 
     print(f"Found node: current name={getattr(node,'name',None)} type={getattr(node,'speckle_type',None)}")
-    node.name = "old"
+    node.name = "old_modules"
     node.speckle_type = "Speckle.Core.Models.Collection"
     node._speckle_type = "Speckle.Core.Models.Collection"
     try:
