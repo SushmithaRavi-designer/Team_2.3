@@ -292,7 +292,7 @@ def main():
     new_collection.speckle_type = "Speckle.Core.Models.Collection"
     new_collection._speckle_type = "Speckle.Core.Models.Collection"
     new_collection["speckle_type"] = "Speckle.Core.Models.Collection"
-    new_collection.name = "new_modules"
+    new_collection.name = "new_module"
     new_collection.elements = [copied_obj]
     
     print(f"✓ Created collection: '{new_collection.name}'")
