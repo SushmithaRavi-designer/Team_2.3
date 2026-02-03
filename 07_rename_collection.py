@@ -87,8 +87,8 @@ if __name__ == '__main__':
     transport = ServerTransport(client=client, stream_id=PROJECT_ID)
     root = operations.receive(latest.referenced_object, transport)
 
-    print("\n--- Applying renames: root -> 'python model', 'Layer 01' -> 'old', child 'Layer' -> 'Collection' ---")
-    root.name = "python model"
+    print("\n--- Applying renames: root -> 'Specklypy model', 'Layer 01' -> 'old', child 'Layer' -> 'Collection' ---")
+    root.name = "Specklypy model"
     renamed = rename_member_by_name(root, "Layer 01", "old")
     print(f"  ✓ Renamed 'Layer 01' -> 'old': {renamed}")
     child_renamed = rename_child_under_parent(root, "old", "Layer", "old")
